@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+.container {
+    padding: 30px 60px;
+}
+
+.timer {
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 20px;
+}
+
+.timer h1,
+.timer > div p {
+    font-size: 7rem;
+}
+
+.timer > div p {
+    font-weight: bold;
+}
+
+.timer > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #514988;
+}
+
+.content-area,
+.tickets-area {
+    display: flex;
+}
+
+.content-left {
+    flex: 1;
+    background-color: #514988;
+    text-align: center;
+    padding: 30px 60px 90px;
+}
+
+.content-right {
+    flex: 1;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.video video {
+    width: 100%;
+}
+
+.title {
+    font-size: 7rem;
+    text-transform: uppercase;
+    color: #F3C61F;
+}
+
+.subtitle {
+    font-size: 3rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.content-text {
+    display: block;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 70px;
+}
+
+.pink {
+    color: #E33881;
+}
+
+.yellow {
+    color: #F3C61F;
+}
+
+.tickets {
+    flex: 1.2;
+    text-align: center;
+}
+
+.tickets-btn {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tickets-btn a {
+    display: inline-block;
+    padding: 35px 90px;
+    background-color: #514988;
+    font-size: 4.2rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.tickets-btn a:hover {
+    color: #514988;
+    background-color: #F3C61F;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
